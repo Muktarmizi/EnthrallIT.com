@@ -9,33 +9,30 @@ public class Home_Page {
 
 	WebDriver driver;
 
-	
-		
-	    public Home_Page(WebDriver driver) {
+	public Home_Page(WebDriver driver) {
 		this.driver = driver;
-		PageFactory.initElements(driver,this);
-		
+		PageFactory.initElements(driver, this);
+
 	}
 
-	@FindBy(name ="logo-link")
+	@FindBy(name = "logo-link")
 	WebElement logoElement;
 
+	@FindBy(name = "username")
+	WebElement userIdElement;
+
+	public void clickLogo() throws InterruptedException {
+		Thread.sleep(4000);
+		logoElement.click();
+		Thread.sleep(4000);
+		logoElement.click();
+}
 	
-	@FindBy (name = "username")
-     WebElement userIdElement;
-	
-     public void clickLogo() throws InterruptedException {
-    	 Thread.sleep(4000);
-    	 logoElement.click();
-    	 Thread.sleep(4000);
-    	 logoElement.click();
+	//Will Work With More Web Element.
+
+	public void clickUserId() {
+		userIdElement.click();
 
 	}
-     
-     public void clickUserId() {
-    	 userIdElement.click();
-    	 
-     }
 
-	
 }
