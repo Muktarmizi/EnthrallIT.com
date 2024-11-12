@@ -13,9 +13,43 @@ public class Home_Page_Testing extends Basic_Class {
 
 	}
 
+	// @Test
+	// public void clickUserIdTest() {
+	// home_Page.clickUserId();
+
+	// }
+
 	@Test
-	public void clickUserIdTest() {
-		home_Page.clickUserId();
+	public void clickUserEmailsTest() throws InterruptedException {
+		home_Page.clickUserEmail();
+
+	}
+
+	@Test
+	public void clickAboutUsTest() throws InterruptedException {
+		home_Page.clickAboutUs();
+
+	}
+
+	@Test
+	public void clickLoginTest() throws InterruptedException {
+		home_Page.clickLogin();
+	}
+
+	@Test
+	public void clickCoursesTest() throws InterruptedException {
+		home_Page.clickCourses();
+
+	}
+
+	@Test
+	public void clickMentoresTest() throws InterruptedException {
+		home_Page.clickMentors();
+	}
+
+	@Test
+	public void clickEnrollTest() throws InterruptedException {
+		home_Page.clickEnroll();
 
 	}
 
