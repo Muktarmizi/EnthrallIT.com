@@ -20,9 +20,6 @@ public class Home_Page {
 	@FindBy(name = "logo-link")
 	WebElement logoElement;
 
-	@FindBy(name = "username")
-	WebElement userIdElement;
-
 	@FindBy(xpath = "//li[@id='courses' and @name='courses']")
 	WebElement coursesElement;
 
@@ -34,6 +31,9 @@ public class Home_Page {
 
 	@FindBy(id = "login-link")
 	WebElement loginElement;
+	
+	@FindBy(xpath = "//*[@id='emails' and @class='form-control form-control-lg']")
+	WebElement userIdElement;
 
 	@FindBy(id = "enroll-button")
 	WebElement enrollElement;
@@ -41,6 +41,14 @@ public class Home_Page {
 	@FindBy(xpath = "//input[@id='emails' and @class='form-control form-control-lg']")
 	WebElement useremailElement;
 
+	@FindBy(xpath = "//*[@id='password' and @class='form-control form-control-lg']")
+	WebElement userpassElement;
+	
+	@FindBy(xpath = "//*[@id='login' and@class='btn btn-lg px-5']")
+	WebElement loginbuttonElement;
+	
+	
+	
 	public void clickLogo() throws InterruptedException {
 		Thread.sleep(4000);
 		logoElement.click();
@@ -55,13 +63,38 @@ public class Home_Page {
 
 	// }
 
-	public void clickUserEmail() throws InterruptedException {
+	public void clickUserEmailandPassword() throws InterruptedException {
+		
+		Thread.sleep(4000);
+		loginElement.click();
+		Thread.sleep(4000);
+		loginElement.click();
+
+		
+		useremailElement.clear();
+		useremailElement.sendKeys("Mizimuktar0@gmail.com");
 		Thread.sleep(4000);
 		useremailElement.click();
 		Thread.sleep(4000);
 		useremailElement.click();
+        
+		userpassElement.clear();
+		userpassElement.sendKeys("Password$1");
+		Thread.sleep(4000);
+		userpassElement.click();
+		Thread.sleep(4000);
+		userpassElement.click();
+		
+		
+		Thread.sleep(4000);
+		loginbuttonElement.click();
+		Thread.sleep(4000);
+		loginbuttonElement.click();
+
 
 	}
+	
+	
 
 	public void clickAboutUs() throws InterruptedException {
 		Thread.sleep(4000);

@@ -20,9 +20,8 @@ public class Home_Page_Testing extends Basic_Class {
 	// }
 
 	@Test
-	public void clickUserEmailsTest() throws InterruptedException {
-		home_Page.clickUserEmail();
-
+	public void clickUserEmailandPasswordTest() throws InterruptedException {
+		home_Page.clickUserEmailandPassword();
 	}
 
 	@Test
