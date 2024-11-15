@@ -5,7 +5,7 @@
     <classes>
       <class name="allPageTestIng.Home_Page_Testing">
         <methods>
-          <include name="clickEnrollTest"/>
+          <include name="clickUserEmailandPasswordTest"/>
           <include name="tearUp"/>
           <include name="setup"/>
         </methods>
