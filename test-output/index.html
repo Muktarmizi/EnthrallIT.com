@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-failed">Default suite</span>
+              <span class="suite-name border-passed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\mizim\AppData\Local\Temp\testng-eclipse--1612520820\testng-customsuite.xml</span>
+                    <span>C:\Users\mizim\AppData\Local\Temp\testng-eclipse-884253903\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,21 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
-                    <div class="method-list-content failed suite-Default_suite">
+                    <div class="method-list-content passed suite-Default_suite">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="allPageTestIng.HomePageTesting" class="method navigator-link" hash-for-method="clickLogoTest">clickLogoTest</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="allPageTestIng.HomePageTesting" class="method navigator-link" hash-for-method="clickAutomationEnrollNowtest">clickAutomationEnrollNowtest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                    </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -119,86 +119,25 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
+          <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">allPageTestIng.HomePageTesting</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="clickLogoTest">
-                  </a> <!-- clickLogoTest -->
-                  <span class="method-name">clickLogoTest</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;/&quot; name=&quot;logo-link&quot; id=&quot;logo-id&quot;&gt;...&lt;/a&gt; is not clickable at point (89, 68). Other element would receive the click: &lt;div class=&quot;preloader&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=131.0.6778.86)
-Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.24&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a60bdd171aecf66f3c1aad2c545463fd, clickElement {id=f.72EB855A95539EFA4CCF0EEFA1CB501C.d.E84BFD70117E8167A439DE85381D907D.e.41}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\mizim\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53014}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53014/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (a60bdd171aecf66f3c1aad2c545463fd)] -&gt; id: logo-id]
-Session ID: a60bdd171aecf66f3c1aad2c545463fd
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy13.click(Unknown Source)
-	at common.CommonActions.clickElement(CommonActions.java:18)
-	at pages.HomePage.logoElement(HomePage.java:66)
-	at allPageTestIng.HomePageTesting.clickLogoTest(HomePageTesting.java:12)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-
-</div> <!-- stack-trace -->
+                  <a name="clickAutomationEnrollNowtest">
+                  </a> <!-- clickAutomationEnrollNowtest -->
+                  <span class="method-name">clickAutomationEnrollNowtest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
+          </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\mizim\AppData\Local\Temp\testng-eclipse--1612520820\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\mizim\AppData\Local\Temp\testng-eclipse-884253903\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -209,7 +148,7 @@ Session ID: a60bdd171aecf66f3c1aad2c545463fd
     &lt;classes&gt;
       &lt;class name=&quot;allPageTestIng.HomePageTesting&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;clickLogoTest&quot;/&gt;
+          &lt;include name=&quot;clickAutomationEnrollNowtest&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- allPageTestIng.HomePageTesting --&gt;
     &lt;/classes&gt;
@@ -253,14 +192,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'clickLogoTest')
+data.setCell(0, 1, 'clickAutomationEnrollNowtest')
 data.setCell(0, 2, 'allPageTestIng.HomePageTesting')
-data.setCell(0, 3, 1249);
+data.setCell(0, 3, 132041);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -271,6 +210,104 @@ return data;
             <span class="header-content">Reporter output for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">clickAutomationEnrollNowtest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> id: login-link]<--------> has been clicked<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@id='emails' and @class='form-control form-control-lg']]<--------> has been clicked<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //*[@id='password' and @class='form-control form-control-lg']]<--------> has been clicked<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='login' and@class='btn btn-lg px-5']'<--------> has been clicked<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 3000<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //span[text()='Automation']]<--------> has been clicked<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 3000<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //a[text()='Enroll Now']]<--------> has been clicked<br></span>
+                <span class="reporter-method-output">Total Windows Opened: 2<br></span>
+                <span class="reporter-method-output"> The Window moved to --> 0D4D04BA3F75A4344FC190383AB19327<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@name='f_name']]<--------> has been clicked<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">Shuvo <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@name='f_name']] and then clicked by Enter Key<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">M <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@name='m_name']] and then clicked by Enter Key<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">Mirza <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@name='l_name' and @class='form-control']]<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">a Student is present in the dropdpwn<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">a Staff is present in the dropdpwn<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">Employed is present in the dropdpwn<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">Unemployed is present in the dropdpwn<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">Other is present in the dropdpwn<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">Total Element: 5 is present in the dropdown<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">a Student has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //select[@name='i_am']]<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">Python is present in the dropdpwn<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">Django is present in the dropdpwn<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">Total Element: 2 is present in the dropdown<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">Python has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //*[@name='course_wish_to_enroll' and @class='form-control']]<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">9293306564 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@name='phone']] and then clicked by Enter Key<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">MirzaShuvo79@gmail.com <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@id='id_email' and @name='email']] and then clicked by Enter Key<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">Muktar2024$ <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@id='id_password']] and then clicked by Enter Key<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">Male has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //select[@id='id_gender']]<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">Screenshot cannot be captured<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">1989 has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //select[@name='birth_year']]<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">December has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //select[@name='birth_month']]<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">16 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //select[@name='birth_date']] and then clicked by Enter Key<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">2268 Seward Ave <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@name='home_address_line_1']] and then clicked by Enter Key<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">Apt 3 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@name='home_address_line_2']] and then clicked by Enter Key<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">Bronx <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@id='id_city']] and then clicked by Enter Key<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">New York <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //select[@id='id_state']] and then clicked by Enter Key<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">10473 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@name='zip_code']] and then clicked by Enter Key<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">Citizen <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //select[@name='immigration_status']] and then clicked by Enter Key<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">24th Jan 2013 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@name='arrival_date']] and then clicked by Enter Key<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">9293306564 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@id='id_emergency_contact']] and then clicked by Enter Key<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">Friends <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@id='id_know_us']] and then clicked by Enter Key<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">Graduate <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //select[@id='id_highest_education']] and then clicked by Enter Key<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">Bangladesh <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //select[@id='id_country_of_origin']] and then clicked by Enter Key<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">English <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //select[@id='id_primary_language']] and then clicked by Enter Key<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">Shuvo m Mirza <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@id='id_sign_by_name']] and then clicked by Enter Key<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@id='is_agree']]<--------> has been clicked<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2000<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
@@ -281,9 +318,9 @@ return data;
             <div class="ignored-class-div">
               <span class="ignored-class-name">allPageTestIng.HomePageTesting</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">clickAboutUsTest</span>
+                <span class="ignored-method-name">clickLogoTest</span>
                 <br/>
-                <span class="ignored-method-name">clickUserEmailandPasswordTest</span>
+                <span class="ignored-method-name">clickAboutUsTest</span>
                 <br/>
                 <span class="ignored-method-name">clickCoursesTest</span>
                 <br/>
@@ -309,14 +346,12 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">clickLogoTest</span>
-                <span class="method-start">5113 ms</span>
+                <span class="method-name">clickAutomationEnrollNowtest</span>
+                <span class="method-start">4852 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearUp</span>
-                <span class="method-start">6397 ms</span>
+                <span class="method-start">136901 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
