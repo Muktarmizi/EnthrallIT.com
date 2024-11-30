@@ -8,22 +8,11 @@ import basicutil.BasicClass;
 public class HomePageTesting extends BasicClass {
 
 	@Test
-	public void clickLogoTest() {
-		homePage.logoElement();
+	public void clickAutomationEnrollNowtest() {
+		homePage.clickAutomationEnrollNow();
 
-		
 	}
-
-	// @Test
-	// public void clickUserIdTest() {
-	// home_Page.clickUserId();
-
-	// }
-
-	@Test
-	public void clickUserEmailandPasswordTest() throws InterruptedException {
-		homePage.clickUserEmailandPassword();
-	}
+	
 
 	@Test
 	public void clickAboutUsTest() throws InterruptedException {
@@ -40,6 +29,11 @@ public class HomePageTesting extends BasicClass {
 	public void clickCoursesTest() throws InterruptedException {
 		homePage.clickCourses();
 
+	}
+
+	@Test
+	public void clickLogoTest() {
+		homePage.logoElement();
 	}
 
 	@Test

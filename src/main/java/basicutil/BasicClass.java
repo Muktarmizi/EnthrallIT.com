@@ -9,6 +9,8 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 import pages.HomePage;
 import utils.Configuration;
 import static utils.IConstant.*;
@@ -55,10 +57,11 @@ public class BasicClass {
 		 * "./driver/msedgedriver.exe"); driver = new EdgeDriver(); break;
 		 */
 
-		// WebDriverManager.chromedriver().setup();
-		// driver = new ChromeDriver();
+		
 
 		default:
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver();
 			break;
 		}
 	}
