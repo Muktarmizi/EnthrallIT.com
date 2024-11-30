@@ -10,7 +10,6 @@ public class HomePageTesting extends BasicClass {
 	@Test
 	public void clickAutomationEnrollNowtest() {
 		homePage.clickAutomationEnrollNow();
-
 	}
 
 	@Test

@@ -293,7 +293,8 @@ public class HomePage {
 	 * pause(2000); selectDropdown(selectCourse, "Python"); pause(2000);
 	 * inputTextThenClickTab(phoneNum, "929-330-6564"); pause(2000);
 	 * inputTextThenClickTab(emailAdd, "Mirzashuvo79@gmail.com"); pause(2000);
-	 * inputTextThenClickTab(passWordAdd, "Mirza2024"); pause(2000);
+	 * inputTextThenClickTab(passWordAdd, "Mirza2024"); 
+	 * pause(2000);
 	 * 
 	 * 
 	 * selectDropdown(Gender,"Male"); pause(2000); //inputTextThenClickEnter(
