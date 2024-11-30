@@ -57,8 +57,6 @@ public class BasicClass {
 		 * "./driver/msedgedriver.exe"); driver = new EdgeDriver(); break;
 		 */
 
-		
-
 		default:
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();

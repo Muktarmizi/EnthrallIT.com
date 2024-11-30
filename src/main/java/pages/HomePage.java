@@ -101,9 +101,8 @@ public class HomePage {
 
 	@FindBy(xpath = "//*[@name='course_wish_to_enroll' and @class='form-control']")
 	WebElement selectCourse;
-	 @FindBy(xpath = "//*[@name='course_wish_to_enroll' and @class='form-control']/option")
-	 List<WebElement> selectCourseList;
-	 
+	@FindBy(xpath = "//*[@name='course_wish_to_enroll' and @class='form-control']/option")
+	List<WebElement> selectCourseList;
 
 	@FindBy(xpath = "//input[@name='phone']")
 	WebElement phoneNum;
@@ -116,112 +115,76 @@ public class HomePage {
 
 	@FindBy(xpath = "//select[@id='id_gender']")
 	WebElement Gender;
-	
-	//@FindBy(xpath = "//option[text()='Select Birth Year']")
-	//WebElement birthYear;
-	
+
+	// @FindBy(xpath = "//option[text()='Select Birth Year']")
+	// WebElement birthYear;
+
 	@FindBy(xpath = "//select[@name='birth_year']")
 	WebElement selectBirthYear;
-	
-	@FindBy(xpath ="//select[@name='birth_month']/option")
+
+	@FindBy(xpath = "//select[@name='birth_month']/option")
 	List<WebElement> selectBirthMonthList;
-	
+
 	@FindBy(xpath = "//select[@name='birth_month']")
 	WebElement selectBirthMonth;
-	
+
 	@FindBy(xpath = "//select[@name='birth_date']")
 	WebElement selectBirthDay;
-	
+
 	@FindBy(xpath = "//*[@name='image' and @class='form-control error-border']")
 	WebElement choosefile1;
-	
+
 	@FindBy(xpath = "//input[@name='home_address_line_1']")
 	WebElement homeAddressL1;
-	
 
 	@FindBy(xpath = "//input[@name='home_address_line_2']")
 	WebElement homeAddressL2;
-	
+
 	@FindBy(xpath = "//input[@id='id_city']")
 	WebElement cityElement;
-	
+
 	@FindBy(xpath = "//select[@id='id_state']")
 	WebElement stateElement;
-	
+
 	@FindBy(xpath = "//input[@name='zip_code']")
 	WebElement zipCodElement;
-	
+
 	@FindBy(xpath = "//select[@name='immigration_status']")
 	WebElement immigrationElement;
-	
+
 	@FindBy(xpath = "//select[@name='immigration_status']/option")
 	List<WebElement> immigrationList;
-	
+
 	@FindBy(xpath = "//input[@name='arrival_date']")
 	WebElement arrivalDateElement;
-	
+
 	@FindBy(xpath = "//input[@id='id_emergency_contact']")
 	WebElement emergencyElement;
-	
+
 	@FindBy(xpath = "//input[@id='id_know_us']")
 	WebElement knowAboutUs;
-	
+
 	@FindBy(xpath = "//select[@id='id_highest_education']")
 	WebElement highEducation;
-	
+
 	@FindBy(xpath = "//select[@id='id_country_of_origin']")
 	WebElement countryOriginElement;
-	
+
 	@FindBy(xpath = "//select[@id='id_primary_language']/option")
-    List<WebElement> selectlanguageList;
-	
+	List<WebElement> selectlanguageList;
+
 	@FindBy(xpath = "//select[@id='id_primary_language']")
 	WebElement selectLanguage;
-	
+
 	@FindBy(xpath = "//input[@id='id_sign_by_name']")
 	WebElement signtureElement;
-	
+
 	@FindBy(xpath = "//input[@id='is_agree']")
 	WebElement iAgreeCheckBox;
-	
+
 	@FindBy(xpath = "//button[@id='submit_button']")
 	WebElement submitButton;
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
-	
-	
-	
-	
-	
 	public void logoElement() {
 		clickElement(logoElement);
 		pause(2000);
@@ -276,56 +239,46 @@ public class HomePage {
 		selectDropdown(Gender, "Male");
 		pause(2000);
 		getScreenShot("/com.Enthrallit.portal/other/Screenshot 2024-11-02 105059.png", driver);
-	    pause(2000);
-        selectDropdown(selectBirthYear,"1989");
 		pause(2000);
-		//selectElelementFromDropdownOnebyOne(selectBirthMonth, selectBirthMonthList);
-		//pause(2000);
-		selectDropdown(selectBirthMonth,"December");
+		selectDropdown(selectBirthYear, "1989");
 		pause(2000);
-		inputTextThenClickTab(selectBirthDay,"16");
+		// selectElelementFromDropdownOnebyOne(selectBirthMonth, selectBirthMonthList);
+		// pause(2000);
+		selectDropdown(selectBirthMonth, "December");
 		pause(2000);
-		inputTextThenClickTab(homeAddressL1,"2268 Seward Ave");
+		inputTextThenClickTab(selectBirthDay, "16");
 		pause(2000);
-		inputTextThenClickTab(homeAddressL2,"Apt 3");
+		inputTextThenClickTab(homeAddressL1, "2268 Seward Ave");
 		pause(2000);
-		inputTextThenClickTab(cityElement,"Bronx");
+		inputTextThenClickTab(homeAddressL2, "Apt 3");
 		pause(2000);
-		inputTextThenClickTab(stateElement,"New York");
+		inputTextThenClickTab(cityElement, "Bronx");
 		pause(2000);
-		inputTextThenClickTab(zipCodElement,"10473");
+		inputTextThenClickTab(stateElement, "New York");
 		pause(2000);
-		inputTextThenClickTab(immigrationElement,"Citizen");
+		inputTextThenClickTab(zipCodElement, "10473");
 		pause(2000);
-		inputTextThenClickTab(arrivalDateElement,"24th Jan 2013");
+		inputTextThenClickTab(immigrationElement, "Citizen");
 		pause(2000);
-		inputTextThenClickTab(emergencyElement,"9293306564");
+		inputTextThenClickTab(arrivalDateElement, "24th Jan 2013");
 		pause(2000);
-		inputTextThenClickTab(knowAboutUs,"Friends");
+		inputTextThenClickTab(emergencyElement, "9293306564");
 		pause(2000);
-		inputTextThenClickTab(highEducation,"Graduate");
+		inputTextThenClickTab(knowAboutUs, "Friends");
 		pause(2000);
-		inputTextThenClickTab(countryOriginElement,"Bangladesh");
+		inputTextThenClickTab(highEducation, "Graduate");
 		pause(2000);
-		inputTextThenClickTab(selectLanguage,"English");
+		inputTextThenClickTab(countryOriginElement, "Bangladesh");
 		pause(2000);
-		inputTextThenClickTab(signtureElement,"Shuvo");
+		inputTextThenClickTab(selectLanguage, "English");
+		pause(2000);
+		inputTextThenClickTab(signtureElement, "Shuvo");
 		pause(2000);
 		clickElement(iAgreeCheckBox);
 		pause(2000);
 		submitButton.click();
-		
-		
-		
-		
-		
-		
-		
-		
-	
+
 	}
-	
-	
 
 	/*
 	 * Select select1 = new Select(selectCourse); pause(2000);
@@ -341,10 +294,9 @@ public class HomePage {
 	 * inputTextThenClickTab(phoneNum, "929-330-6564"); pause(2000);
 	 * inputTextThenClickTab(emailAdd, "Mirzashuvo79@gmail.com"); pause(2000);
 	 * inputTextThenClickTab(passWordAdd, "Mirza2024"); pause(2000);
-	
 	 * 
-	 * selectDropdown(Gender,"Male"); pause(2000); 
-	 * //inputTextThenClickEnter(
+	 * 
+	 * selectDropdown(Gender,"Male"); pause(2000); //inputTextThenClickEnter(
 	 * aboutusElement,"/com.Enthrallit.portal/other/Screenshot 2024-11-02 105059.png"
 	 * ); pause(2000);
 	 */

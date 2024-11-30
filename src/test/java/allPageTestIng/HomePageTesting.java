@@ -12,7 +12,6 @@ public class HomePageTesting extends BasicClass {
 		homePage.clickAutomationEnrollNow();
 
 	}
-	
 
 	@Test
 	public void clickAboutUsTest() throws InterruptedException {
