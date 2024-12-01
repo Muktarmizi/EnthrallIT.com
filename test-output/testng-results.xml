@@ -5,7 +5,7 @@
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> id: login-link]<--------> has been clicked<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> id: login-link]<--------> has been clicked<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
@@ -14,7 +14,7 @@
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@id='emails' and @class='form-control form-control-lg']]<--------> has been clicked<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@id='emails' and @class='form-control form-control-lg']]<--------> has been clicked<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
@@ -23,7 +23,7 @@
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //*[@id='password' and @class='form-control form-control-lg']]<--------> has been clicked<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //*[@id='password' and @class='form-control form-control-lg']]<--------> has been clicked<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
@@ -38,7 +38,7 @@
       <![CDATA[Sleeping ... zZz 3000<br>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //span[text()='Automation']]<--------> has been clicked<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //span[text()='Automation']]<--------> has been clicked<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
@@ -47,37 +47,37 @@
       <![CDATA[Sleeping ... zZz 3000<br>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //a[text()='Enroll Now']]<--------> has been clicked<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //a[text()='Enroll Now']]<--------> has been clicked<br>]]>
     </line>
     <line>
       <![CDATA[Total Windows Opened: 2<br>]]>
     </line>
     <line>
-      <![CDATA[ The Window moved to --> 0D4D04BA3F75A4344FC190383AB19327<br>]]>
+      <![CDATA[ The Window moved to --> C01B4FFE21AF31726E345656AD52EDD3<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@name='f_name']]<--------> has been clicked<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@name='f_name']]<--------> has been clicked<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[Shuvo <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@name='f_name']] and then clicked by Enter Key<br>]]>
+      <![CDATA[Shuvo <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@name='f_name']] and then clicked by Enter Key<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[M <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@name='m_name']] and then clicked by Enter Key<br>]]>
+      <![CDATA[M <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@name='m_name']] and then clicked by Enter Key<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[Mirza <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@name='l_name' and @class='form-control']]<br>]]>
+      <![CDATA[Mirza <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@name='l_name' and @class='form-control']]<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
@@ -119,7 +119,7 @@
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[a Student has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //select[@name='i_am']]<br>]]>
+      <![CDATA[a Student has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //select[@name='i_am']]<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
@@ -143,160 +143,244 @@
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[Python has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //*[@name='course_wish_to_enroll' and @class='form-control']]<br>]]>
+      <![CDATA[Python has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //*[@name='course_wish_to_enroll' and @class='form-control']]<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[9293306564 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@name='phone']] and then clicked by Enter Key<br>]]>
+      <![CDATA[9293306564 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@name='phone']] and then clicked by Enter Key<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[MirzaShuvo79@gmail.com <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@id='id_email' and @name='email']] and then clicked by Enter Key<br>]]>
+      <![CDATA[MirzaShuvo79@gmail.com <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@id='id_email' and @name='email']] and then clicked by Enter Key<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[Muktar2024$ <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@id='id_password']] and then clicked by Enter Key<br>]]>
+      <![CDATA[Muktar2024$ <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@id='id_password']] and then clicked by Enter Key<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[Male has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //select[@id='id_gender']]<br>]]>
+      <![CDATA[Male has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //select[@id='id_gender']]<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[Screenshot cannot be captured<br>]]>
+      <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[1989 has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //select[@name='birth_year']]<br>]]>
+      <![CDATA[1989 has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //select[@name='birth_year']]<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[December has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //select[@name='birth_month']]<br>]]>
+      <![CDATA[January is present in the dropdpwn<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[16 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //select[@name='birth_date']] and then clicked by Enter Key<br>]]>
+      <![CDATA[February is present in the dropdpwn<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[2268 Seward Ave <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@name='home_address_line_1']] and then clicked by Enter Key<br>]]>
+      <![CDATA[March is present in the dropdpwn<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[Apt 3 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@name='home_address_line_2']] and then clicked by Enter Key<br>]]>
+      <![CDATA[April is present in the dropdpwn<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[Bronx <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@id='id_city']] and then clicked by Enter Key<br>]]>
+      <![CDATA[May is present in the dropdpwn<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[New York <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //select[@id='id_state']] and then clicked by Enter Key<br>]]>
+      <![CDATA[June is present in the dropdpwn<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[10473 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@name='zip_code']] and then clicked by Enter Key<br>]]>
+      <![CDATA[July is present in the dropdpwn<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[Citizen <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //select[@name='immigration_status']] and then clicked by Enter Key<br>]]>
+      <![CDATA[August is present in the dropdpwn<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[24th Jan 2013 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@name='arrival_date']] and then clicked by Enter Key<br>]]>
+      <![CDATA[September is present in the dropdpwn<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[9293306564 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@id='id_emergency_contact']] and then clicked by Enter Key<br>]]>
+      <![CDATA[October is present in the dropdpwn<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[Friends <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@id='id_know_us']] and then clicked by Enter Key<br>]]>
+      <![CDATA[November is present in the dropdpwn<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[Graduate <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //select[@id='id_highest_education']] and then clicked by Enter Key<br>]]>
+      <![CDATA[December is present in the dropdpwn<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[Bangladesh <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //select[@id='id_country_of_origin']] and then clicked by Enter Key<br>]]>
+      <![CDATA[Total Element: 12 is present in the dropdown<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[English <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //select[@id='id_primary_language']] and then clicked by Enter Key<br>]]>
+      <![CDATA[December has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //select[@name='birth_month']]<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[Shuvo m Mirza <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@id='id_sign_by_name']] and then clicked by Enter Key<br>]]>
+      <![CDATA[16 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //select[@name='birth_date']] and then clicked by Enter Key<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@id='is_agree']]<--------> has been clicked<br>]]>
+      <![CDATA[2268 Seward Ave <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@name='home_address_line_1']] and then clicked by Enter Key<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 2000<br>]]>
+    </line>
+    <line>
+      <![CDATA[Apt 3 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@name='home_address_line_2']] and then clicked by Enter Key<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 2000<br>]]>
+    </line>
+    <line>
+      <![CDATA[Bronx <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@id='id_city']] and then clicked by Enter Key<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 2000<br>]]>
+    </line>
+    <line>
+      <![CDATA[New York <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //select[@id='id_state']] and then clicked by Enter Key<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 2000<br>]]>
+    </line>
+    <line>
+      <![CDATA[10473 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@name='zip_code']] and then clicked by Enter Key<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 2000<br>]]>
+    </line>
+    <line>
+      <![CDATA[Citizen <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //select[@name='immigration_status']] and then clicked by Enter Key<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 2000<br>]]>
+    </line>
+    <line>
+      <![CDATA[24th Jan 2013 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@name='arrival_date']] and then clicked by Enter Key<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 2000<br>]]>
+    </line>
+    <line>
+      <![CDATA[9293306564 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@id='id_emergency_contact']] and then clicked by Enter Key<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 2000<br>]]>
+    </line>
+    <line>
+      <![CDATA[Friends <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@id='id_know_us']] and then clicked by Enter Key<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 2000<br>]]>
+    </line>
+    <line>
+      <![CDATA[Graduate <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //select[@id='id_highest_education']] and then clicked by Enter Key<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 2000<br>]]>
+    </line>
+    <line>
+      <![CDATA[Bangladesh <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //select[@id='id_country_of_origin']] and then clicked by Enter Key<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 2000<br>]]>
+    </line>
+    <line>
+      <![CDATA[English <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //select[@id='id_primary_language']] and then clicked by Enter Key<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 2000<br>]]>
+    </line>
+    <line>
+      <![CDATA[Shuvo Mirza <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@id='id_sign_by_name']] and then clicked by Enter Key<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 2000<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@id='is_agree']]<--------> has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 2000<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //button[@id='submit_button']]<--------> has been clicked<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 2000<br>]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-11-30T00:26:18 EST" name="Default suite" finished-at="2024-11-30T00:28:35 EST" duration-ms="136985">
+  <suite started-at="2024-11-30T22:24:09 EST" name="Default suite" finished-at="2024-11-30T22:27:09 EST" duration-ms="180375">
     <groups>
     </groups>
-    <test started-at="2024-11-30T00:26:18 EST" name="Default test" finished-at="2024-11-30T00:28:35 EST" duration-ms="136985">
+    <test started-at="2024-11-30T22:24:09 EST" name="Default test" finished-at="2024-11-30T22:27:09 EST" duration-ms="180375">
       <class name="allPageTestIng.HomePageTesting">
-        <test-method is-config="true" signature="setup()[pri:0, instance:allPageTestIng.HomePageTesting@793be5ca]" started-at="2024-11-30T00:26:18 EST" name="setup" finished-at="2024-11-30T00:26:23 EST" duration-ms="4851" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:allPageTestIng.HomePageTesting@793be5ca]" started-at="2024-11-30T22:24:09 EST" name="setup" finished-at="2024-11-30T22:24:18 EST" duration-ms="9248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="clickAutomationEnrollNowtest()[pri:0, instance:allPageTestIng.HomePageTesting@793be5ca]" started-at="2024-11-30T00:26:23 EST" name="clickAutomationEnrollNowtest" finished-at="2024-11-30T00:28:35 EST" duration-ms="132041" status="PASS">
+        <test-method signature="clickAutomationEnrollNowtest()[pri:0, instance:allPageTestIng.HomePageTesting@793be5ca]" started-at="2024-11-30T22:24:18 EST" name="clickAutomationEnrollNowtest" finished-at="2024-11-30T22:27:09 EST" duration-ms="171036" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> id: login-link]<--------> has been clicked<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> id: login-link]<--------> has been clicked<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
@@ -305,7 +389,7 @@
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@id='emails' and @class='form-control form-control-lg']]<--------> has been clicked<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@id='emails' and @class='form-control form-control-lg']]<--------> has been clicked<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
@@ -314,7 +398,7 @@
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //*[@id='password' and @class='form-control form-control-lg']]<--------> has been clicked<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //*[@id='password' and @class='form-control form-control-lg']]<--------> has been clicked<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
@@ -329,7 +413,7 @@
               <![CDATA[Sleeping ... zZz 3000<br>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //span[text()='Automation']]<--------> has been clicked<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //span[text()='Automation']]<--------> has been clicked<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
@@ -338,37 +422,37 @@
               <![CDATA[Sleeping ... zZz 3000<br>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //a[text()='Enroll Now']]<--------> has been clicked<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //a[text()='Enroll Now']]<--------> has been clicked<br>]]>
             </line>
             <line>
               <![CDATA[Total Windows Opened: 2<br>]]>
             </line>
             <line>
-              <![CDATA[ The Window moved to --> 0D4D04BA3F75A4344FC190383AB19327<br>]]>
+              <![CDATA[ The Window moved to --> C01B4FFE21AF31726E345656AD52EDD3<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@name='f_name']]<--------> has been clicked<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@name='f_name']]<--------> has been clicked<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[Shuvo <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@name='f_name']] and then clicked by Enter Key<br>]]>
+              <![CDATA[Shuvo <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@name='f_name']] and then clicked by Enter Key<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[M <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@name='m_name']] and then clicked by Enter Key<br>]]>
+              <![CDATA[M <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@name='m_name']] and then clicked by Enter Key<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[Mirza <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@name='l_name' and @class='form-control']]<br>]]>
+              <![CDATA[Mirza <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@name='l_name' and @class='form-control']]<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
@@ -410,7 +494,7 @@
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[a Student has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //select[@name='i_am']]<br>]]>
+              <![CDATA[a Student has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //select[@name='i_am']]<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
@@ -434,146 +518,230 @@
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[Python has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //*[@name='course_wish_to_enroll' and @class='form-control']]<br>]]>
+              <![CDATA[Python has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //*[@name='course_wish_to_enroll' and @class='form-control']]<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[9293306564 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@name='phone']] and then clicked by Enter Key<br>]]>
+              <![CDATA[9293306564 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@name='phone']] and then clicked by Enter Key<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[MirzaShuvo79@gmail.com <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@id='id_email' and @name='email']] and then clicked by Enter Key<br>]]>
+              <![CDATA[MirzaShuvo79@gmail.com <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@id='id_email' and @name='email']] and then clicked by Enter Key<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[Muktar2024$ <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@id='id_password']] and then clicked by Enter Key<br>]]>
+              <![CDATA[Muktar2024$ <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@id='id_password']] and then clicked by Enter Key<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[Male has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //select[@id='id_gender']]<br>]]>
+              <![CDATA[Male has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //select[@id='id_gender']]<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[Screenshot cannot be captured<br>]]>
+              <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[1989 has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //select[@name='birth_year']]<br>]]>
+              <![CDATA[1989 has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //select[@name='birth_year']]<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[December has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //select[@name='birth_month']]<br>]]>
+              <![CDATA[January is present in the dropdpwn<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[16 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //select[@name='birth_date']] and then clicked by Enter Key<br>]]>
+              <![CDATA[February is present in the dropdpwn<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[2268 Seward Ave <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@name='home_address_line_1']] and then clicked by Enter Key<br>]]>
+              <![CDATA[March is present in the dropdpwn<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[Apt 3 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@name='home_address_line_2']] and then clicked by Enter Key<br>]]>
+              <![CDATA[April is present in the dropdpwn<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[Bronx <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@id='id_city']] and then clicked by Enter Key<br>]]>
+              <![CDATA[May is present in the dropdpwn<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[New York <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //select[@id='id_state']] and then clicked by Enter Key<br>]]>
+              <![CDATA[June is present in the dropdpwn<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[10473 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@name='zip_code']] and then clicked by Enter Key<br>]]>
+              <![CDATA[July is present in the dropdpwn<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[Citizen <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //select[@name='immigration_status']] and then clicked by Enter Key<br>]]>
+              <![CDATA[August is present in the dropdpwn<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[24th Jan 2013 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@name='arrival_date']] and then clicked by Enter Key<br>]]>
+              <![CDATA[September is present in the dropdpwn<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[9293306564 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@id='id_emergency_contact']] and then clicked by Enter Key<br>]]>
+              <![CDATA[October is present in the dropdpwn<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[Friends <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@id='id_know_us']] and then clicked by Enter Key<br>]]>
+              <![CDATA[November is present in the dropdpwn<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[Graduate <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //select[@id='id_highest_education']] and then clicked by Enter Key<br>]]>
+              <![CDATA[December is present in the dropdpwn<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[Bangladesh <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //select[@id='id_country_of_origin']] and then clicked by Enter Key<br>]]>
+              <![CDATA[Total Element: 12 is present in the dropdown<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[English <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //select[@id='id_primary_language']] and then clicked by Enter Key<br>]]>
+              <![CDATA[December has been selected from the dropdown of ---> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //select[@name='birth_month']]<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[Shuvo m Mirza <-----> has been put into <-----> [[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@id='id_sign_by_name']] and then clicked by Enter Key<br>]]>
+              <![CDATA[16 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //select[@name='birth_date']] and then clicked by Enter Key<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on windows (4c95eb742a135053d00f9bd0c7105754)] -> xpath: //input[@id='is_agree']]<--------> has been clicked<br>]]>
+              <![CDATA[2268 Seward Ave <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@name='home_address_line_1']] and then clicked by Enter Key<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 2000<br>]]>
+            </line>
+            <line>
+              <![CDATA[Apt 3 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@name='home_address_line_2']] and then clicked by Enter Key<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 2000<br>]]>
+            </line>
+            <line>
+              <![CDATA[Bronx <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@id='id_city']] and then clicked by Enter Key<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 2000<br>]]>
+            </line>
+            <line>
+              <![CDATA[New York <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //select[@id='id_state']] and then clicked by Enter Key<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 2000<br>]]>
+            </line>
+            <line>
+              <![CDATA[10473 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@name='zip_code']] and then clicked by Enter Key<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 2000<br>]]>
+            </line>
+            <line>
+              <![CDATA[Citizen <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //select[@name='immigration_status']] and then clicked by Enter Key<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 2000<br>]]>
+            </line>
+            <line>
+              <![CDATA[24th Jan 2013 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@name='arrival_date']] and then clicked by Enter Key<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 2000<br>]]>
+            </line>
+            <line>
+              <![CDATA[9293306564 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@id='id_emergency_contact']] and then clicked by Enter Key<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 2000<br>]]>
+            </line>
+            <line>
+              <![CDATA[Friends <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@id='id_know_us']] and then clicked by Enter Key<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 2000<br>]]>
+            </line>
+            <line>
+              <![CDATA[Graduate <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //select[@id='id_highest_education']] and then clicked by Enter Key<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 2000<br>]]>
+            </line>
+            <line>
+              <![CDATA[Bangladesh <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //select[@id='id_country_of_origin']] and then clicked by Enter Key<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 2000<br>]]>
+            </line>
+            <line>
+              <![CDATA[English <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //select[@id='id_primary_language']] and then clicked by Enter Key<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 2000<br>]]>
+            </line>
+            <line>
+              <![CDATA[Shuvo Mirza <-----> has been put into <-----> [[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@id='id_sign_by_name']] and then clicked by Enter Key<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 2000<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //input[@id='is_agree']]<--------> has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 2000<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (7e3eefc38ddd49fa878d204cacf548b0)] -> xpath: //button[@id='submit_button']]<--------> has been clicked<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 2000<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- clickAutomationEnrollNowtest -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:allPageTestIng.HomePageTesting@793be5ca]" started-at="2024-11-30T00:28:35 EST" name="tearUp" finished-at="2024-11-30T00:28:35 EST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:allPageTestIng.HomePageTesting@793be5ca]" started-at="2024-11-30T22:27:09 EST" name="tearUp" finished-at="2024-11-30T22:27:09 EST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->

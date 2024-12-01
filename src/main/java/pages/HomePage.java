@@ -3,6 +3,7 @@ package pages;
 import static common.CommonActions.*;
 import static org.testng.Assert.assertThrows;
 
+import java.io.File;
 import java.util.List;
 import java.util.Set;
 
@@ -13,6 +14,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.interactions.Pause;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
@@ -101,6 +103,7 @@ public class HomePage {
 
 	@FindBy(xpath = "//*[@name='course_wish_to_enroll' and @class='form-control']")
 	WebElement selectCourse;
+	
 	@FindBy(xpath = "//*[@name='course_wish_to_enroll' and @class='form-control']/option")
 	List<WebElement> selectCourseList;
 
@@ -131,9 +134,12 @@ public class HomePage {
 	@FindBy(xpath = "//select[@name='birth_date']")
 	WebElement selectBirthDay;
 
-	@FindBy(xpath = "//*[@name='image' and @class='form-control error-border']")
+	@FindBy(xpath = "//*[@id='id_image']")
 	WebElement choosefile1;
-
+	
+	@FindBy(xpath = "//input[@id='id_photo_id']")
+	WebElement choosefile2;
+	
 	@FindBy(xpath = "//input[@name='home_address_line_1']")
 	WebElement homeAddressL1;
 
@@ -238,12 +244,17 @@ public class HomePage {
 		pause(2000);
 		selectDropdown(Gender, "Male");
 		pause(2000);
-		getScreenShot("/com.Enthrallit.portal/other/Screenshot 2024-11-02 105059.png", driver);
+		//getScreenShot("/com.Enthrallit.portal/other/Screenshot 2024-11-02 105059.png", driver);
+		File file = new File("./image/Screenshot 2024-11-30 185110.png");
+		choosefile1.sendKeys(file.getAbsolutePath());
+		pause(2000);
+		File file2 = new File("./image/Screenshot 2024-11-30 185141.png");
+		choosefile2.sendKeys(file.getAbsolutePath());
 		pause(2000);
 		selectDropdown(selectBirthYear, "1989");
 		pause(2000);
-		// selectElelementFromDropdownOnebyOne(selectBirthMonth, selectBirthMonthList);
-		// pause(2000);
+		selectElelementFromDropdownOnebyOne(selectBirthMonth, selectBirthMonthList);
+		pause(2000);
 		selectDropdown(selectBirthMonth, "December");
 		pause(2000);
 		inputTextThenClickTab(selectBirthDay, "16");
@@ -272,11 +283,14 @@ public class HomePage {
 		pause(2000);
 		inputTextThenClickTab(selectLanguage, "English");
 		pause(2000);
-		inputTextThenClickTab(signtureElement, "Shuvo");
+		inputTextThenClickTab(signtureElement, "Shuvo M Mirza");
 		pause(2000);
 		clickElement(iAgreeCheckBox);
 		pause(2000);
-		submitButton.click();
+		clickElement(submitButton);
+		pause(2000);
+		//clickUsingJavascriptExecutor(driver, submitButton);
+		
 
 	}
 
