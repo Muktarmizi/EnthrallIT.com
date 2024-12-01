@@ -7,6 +7,7 @@ import java.text.SimpleDateFormat;
 import java.util.List;
 import java.util.Set;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.OutputType;
@@ -257,31 +258,31 @@ public class CommonActions {
 		}
 	}
 	
-
-	// very very important interview question
-	public static String getScreenShot(String testName, WebDriver driver) {
-		TakesScreenshot ss = (TakesScreenshot) driver;
-		String path = System.getProperty("user.dir") + "/test-output/screenShots";
-		File folder = new File(path);
-		if (!folder.exists()) {
-			folder.mkdirs();
-		}
-
-		Date date = new Date(11/29/2024);
-		SimpleDateFormat dateFormat = new SimpleDateFormat("MMddyyyy_hh.mm.ss");
-		String formattedDate = dateFormat.format(date);
-
-		File targetFile = new File(path + "/error_" + testName + "_" + formattedDate + ".png");
-		try {
-			File srcFile = ss.getScreenshotAs(OutputType.FILE);
-			Files.copy(srcFile, targetFile);
-			Loggers.logTheTest("Screenshot has been successfully capture at: \n" + targetFile.getAbsolutePath());
-		} catch (WebDriverException | IOException e) {
-			e.printStackTrace();
-			Loggers.logTheTest("Screenshot cannot be captured");
-		}
-		return targetFile.getAbsolutePath();
+	public static void clickUsingJavascriptExecutor(WebDriver driver, WebElement element) {
+		// JavascriptExecutor js = (JavascriptExecutor)driver; // instead of writing this 'js' object
+		// we can write below way, (JavascriptExecutor)driver is "js"
+		((JavascriptExecutor)driver).executeScript("arguments[0].click()", element);
+		Loggers.logTheTest("JavascriptExecutor executing ..." + " arguments[0].click()" + " to click on element ---> " + element);
 	}
+	
+	public static void inputTextUsingJavascriptExecutor(WebDriver driver, String script, WebElement element) {
+		((JavascriptExecutor) driver).executeScript(script, element);
+		Loggers.logTheTest("JavascriptExecutor executing ..." + script + " to input Text on element ---> " + element);
+	}
+	
+	public static void scrollIntoViewTheElementUsingJavascriptExecutor(WebDriver driver, WebElement element) {
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true)", element);
+		Loggers.logTheTest("JavascriptExecutor executing ..." + " arguments[0].scrollIntoView(true)" + " to input Text on element ---> " + element);
+	}	
+	
+	// This is for Enthrall IT photo upload common action, not needed for CMS
+	public static void uploadPhotoImage(WebElement element, String location) {
+		File file = new File(location);
+		element.sendKeys(file.getAbsolutePath());
+		pause(4000);
+	}
+	
+
 
 	
 }
