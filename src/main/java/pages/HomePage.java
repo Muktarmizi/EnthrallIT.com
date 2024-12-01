@@ -291,8 +291,7 @@ public class HomePage {
 		pause(2000);
 		//clickUsingJavascriptExecutor(driver, submitButton);
 		
-
-	}
+}
 
 	/*
 	 * Select select1 = new Select(selectCourse); pause(2000);
